@@ -1,0 +1,61 @@
+body,
+html {
+  font-family: "Merienda", cursive;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.imagen-carrito {
+  width: 4rem;
+}
+
+.btn-primary {
+  --bs-btn-border-color: none;
+}
+
+.ver-mas {
+  background-color: #0dcaf0;
+  box-shadow: 0 5px 0 #0cb0d0;
+}
+.ver-mas:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.bg-danger {
+  background-color: #dc3545;
+  box-shadow: 0 5px 0 #a92835;
+}
+.bg-danger:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.mas {
+  background-color: #0d6efd;
+  box-shadow: 0 5px 0 #0b5cd5;
+}
+.mas:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.pagar {
+  background-color: #198754;
+  box-shadow: 0 5px 0 #157046;
+}
+.pagar:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
